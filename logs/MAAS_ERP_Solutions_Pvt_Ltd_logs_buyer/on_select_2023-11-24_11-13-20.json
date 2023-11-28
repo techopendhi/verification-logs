@@ -1,0 +1,88 @@
+{
+    "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:080",
+        "action": "on_select",
+        "core_version": "1.1.0",
+        "bap_id": "buyer-app.ondc.org",
+        "bap_uri": "https://buyer-app.ondc.org/protocol/v1",
+        "bpp_uri": "https://seller.dhihyperlocal.com/api/v1/",
+        "transaction_id": "58a22c78-d71b-4a24-be0b-bf3bd5942e3a",
+        "message_id": "ccecd590-9c85-49dc-aeb7-a1a3fd96c335",
+        "timestamp": "2023-11-24T11:13:20.000Z",
+        "bpp_id": "seller.dhihyperlocal.com",
+        "ttl": "PT30S"
+    },
+    "message": {
+        "order": {
+            "provider": {
+                "id": "P1361"
+            },
+            "items": [
+                {
+                    "fulfillment_id": "F1",
+                    "id": "I4039"
+                }
+            ],
+            "fulfillments": [
+                {
+                    "id": "F1",
+                    "@ondc/org/provider_name": "",
+                    "tracking": false,
+                    "@ondc/org/category": "Immediate Delivery",
+                    "@ondc/org/TAT": "PT45M",
+                    "state": {
+                        "descriptor": {
+                            "code": "Serviceable"
+                        }
+                    }
+                }
+            ],
+            "quote": {
+                "price": {
+                    "currency": "INR",
+                    "value": "1200"
+                },
+                "breakup": [
+                    {
+                        "@ondc/org/item_id": "I4039",
+                        "@ondc/org/item_quantity": {
+                            "count": 1
+                        },
+                        "title": "nivea lotion",
+                        "@ondc/org/title_type": "item",
+                        "price": {
+                            "currency": "INR",
+                            "value": "1200"
+                        },
+                        "item": {
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 1
+                                }
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "1200"
+                            }
+                        }
+                    },
+                    {
+                        "@ondc/org/item_id": "I4039",
+                        "title": "Delivery charges",
+                        "@ondc/org/title_type": "delivery",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        }
+                    }
+                ],
+                "ttl": "PT30S"
+            }
+        }
+    }
+}

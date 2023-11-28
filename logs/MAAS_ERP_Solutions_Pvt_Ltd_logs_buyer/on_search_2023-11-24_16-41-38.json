@@ -1,0 +1,37 @@
+{
+    "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:080",
+        "action": "on_search",
+        "core_version": "1.1.0",
+        "bap_id": "buyer-app.ondc.org",
+        "bap_uri": "https://buyer-app.ondc.org/protocol/v1",
+        "transaction_id": "441a9368-f57a-48b1-8458-c74f17078431",
+        "message_id": "bc6cd17c-2e23-4e7f-9693-22846320b835",
+        "timestamp": "2023-11-24T16:41:38.068Z",
+        "ttl": "PT30S",
+        "bpp_id": "seller.dhihyperlocal.com",
+        "bpp_uri": "https://seller.dhihyperlocal.com/api/v1/"
+    },
+    "message": {
+        "catalog": {
+            "bpp/fulfillments": [
+                {
+                    "id": "1",
+                    "type": "Delivery"
+                }
+            ],
+            "bpp/descriptor": {
+                "name": "MaaS",
+                "symbol": "https://d1337r7n45xvmh.cloudfront.net/maaserp/images/logo.webp",
+                "short_desc": "We strive to provide valuable solutions for our customers, no matter their individual needs",
+                "long_desc": "Our customers are our top priority - We strive to provide valuable solutions for our customers, no matter their individual needs. Our goal is to gain an in-depth understanding of all their challenges and issues, so we can empower them with the answers that really make a difference.",
+                "images": [
+                    "https://d1337r7n45xvmh.cloudfront.net/maaserp/images/logo.webp"
+                ]
+            },
+            "bpp/providers": []
+        }
+    }
+}
